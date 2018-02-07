@@ -39,17 +39,19 @@ OPPGAVE 1. Fyll ut tabellen
 
 
 <br>
+Eksempel på verdier:
+128	64	32	16	8	4	2	1
+<br>
 
-OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.
+<b>OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og motsatt, gjøre om fra desimaltall til binære tall og motsatt.</b>
 <br>
-<br>
-	<b>Binære tall -> hexadesimale tall</b>
+	<br><b> 1. Binære tall -> hexadesimale tall</b>
   <br>
-	1. For å gå fra binære tall til hexadesimale tall, deler vi de binære tallene opp i grupper på fire. Deretter legger vi sammen tallene ut ifra de fire første bitsene (8 4 2 1). Husk at A = 10, B = 11 osv.
+	For å gå fra binære tall til hexadesimale tall, deler vi de binære tallene opp i grupper på fire. Deretter legger vi sammen tallene ut ifra de fire første bitsene (8 4 2 1). Husk at A = 10, B = 11 osv.
   <br>
   <br>
-	<b>Hexadesimale tall -> binære tall</b> <br>
-	1. For å gå fra hexadesimale tall til binære tall, leser vi ett hexadesimaltall om gangen, og deretter skriver vi ned de binære verdiene for hvert hexadesimal.
+	<b>2. Hexadesimale tall -> binære tall</b> <br>
+	For å gå fra hexadesimale tall til binære tall, leser vi ett hexadesimaltall om gangen, og deretter skriver vi ned de binære verdiene for hvert hexadesimal.
   <br>
   F.eks A7
     <br> A = 1010
@@ -57,8 +59,8 @@ OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og mot
     <br> A7 = 1010 0111
   <br>
   <br>
-<b>Binære tall -> desimaltall</b> <br>
-	1. For å gå fra binære tall til desimaltall: les fra høyre til venstre, og legg sammen verdiene som har 1 tall. Alternativt kan vi regne ut ifra totallsystemet: <br>
+<b>3. Binære tall -> desimaltall</b> <br>
+	For å gå fra binære tall til desimaltall: les fra høyre til venstre, og legg sammen verdiene som har 1 tall. Alternativt kan vi regne ut ifra totallsystemet: <br>
 	Verdien x sin posisjon ganges med 2^x, leses av fra høyre side: <br>
 		Eks. 1010:
 			<br> 0	&times; 2^0=0
@@ -68,7 +70,7 @@ OPPGAVE 1 A. Metode for å gjøre om fra hexadesimaltall til binære tall og mot
 			<br> Sum = 8 + 2 = 10 
       <br>
       <br>
-	<b>Desimaltall -> binære tall</b><br>
+	<b>4. Desimaltall -> binære tall</b><br>
 	Start med høyest mulig tall i tallrekken (venstre side) som går opp i angitt desimaltall, og legg sammen alle mulige tall til riktig desimaltall er funnet. Alle tall som går med, skal skrives ned 1 på.
   <br>
 
@@ -129,15 +131,15 @@ Alternativt tar vi heltallsdivisjon, og tar angitt desimaltall delt på 2. Derso
   255 = 1111 1111  (ettersom 0 er på enden, vil den ikke være gjeldende)
 <br>
 
- OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt
+ <b>OPPGAVE 1 B. Metode for å gjøre om fra desimaltall til hexadesimaltall og motsatt</b>
  <br>
  <br>
 	<b>1. Hexadesimaltall -> desimaltall - F.eks F7:</b>
   <br>
-		a. Her regner vi med 〖16〗^x (hexadesimal = seksentallssystem), og regner ut i fra posisjonen til verdiene. 7 vil være i posisjon 0, mens F i posisjon 1, osv.
-			7∗〖16〗^0=7
-			7∗〖16〗^1=240
-			Deretter adderer vi summen. F7 = 247.
+		Her regner vi med 16^x (hexadesimal = seksentallssystem), og regner ut i fra posisjonen til verdiene. 7 vil være i posisjon 0, mens F i posisjon 1, osv.
+			<br> 7 &times; 16^0=7
+			<br> 7 &times; 16^1=240
+			<br> Deretter adderer vi summen. F7 = 247.
       <br>
       <br>
 			
